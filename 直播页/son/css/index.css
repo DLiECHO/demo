@@ -1,0 +1,137 @@
+@import url('inital.css');
+@import url('loading.css');
+
+body {
+    display: flex;
+    align-items: center;
+    background: #ddd url(../img/bg.jpg) repeat top left;
+}
+
+.navigation {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 169, 169, 0.192);
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 8px 1px rgba(158, 179, 193, .5);
+    box-shadow: 0 0 8px 1px rgba(158, 179, 193, .5);
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+}
+
+.main, .search{
+    width: 50%;
+    height: 50px;
+}
+
+.main-frame {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-frame h3 {
+    position: relative;
+    width: 20%;
+    height: 25px;
+    color: rgb(141, 79, 78);    
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 169, 169);
+    background-color: rgba(255, 255, 255, 0.801);
+}
+
+.main-frame h3:before {
+    position: absolute;
+    content: "";
+    top: -10px;
+    left: 10px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgb(255, 169, 169);
+}
+
+input {
+    outline: none;
+    width: 30%;
+    height: 25px;
+    font-size: 19px;
+    font-family: 'STFangsong';
+    text-align: center;
+    border: 2px solid #D79F9E;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-top: 12.5px;
+}
+
+.room,
+.chat {
+    margin-top: 60px;
+    margin-left: 3%;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 0 8px 1px rgba(158, 179, 193, .5);
+    box-shadow: 0 0 8px 1px rgba(158, 179, 193, .5);
+}
+
+.room {
+    width: 60%;
+    height: 550px;
+}
+
+.info-Anchor {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255, 195, 195, 0.15);
+    border-radius: 20px;
+    -webkit-box-shadow: 0 0 8px 1px rgba(158, 179, 193, .5);
+    box-shadow: 0 0 8px 1px rgba(158, 179, 193, .5);
+}
+
+.info{
+    padding: 12px;
+    color: rgb(109, 110, 24);
+}
+
+#info_1{
+    font-size: 20px;
+}
+
+#info_2{
+    font-size: 16px;
+}
+
+.chat {
+    width: 30%;
+    height: 550px;
+}
+
+.blank-message{
+    align-items: center;
+    color: rgb(185, 185, 185);
+    font-size: 18px;
+    padding: 6.5%;
+    position: absolute;
+}
+
+.input{
+    width: 100%;
+    height: 150px;
+    margin-top: 400px;
+    background-color: rgba(255, 195, 195, 0.15);
+    border-radius: 20px;
+    -webkit-box-shadow: 0 0 8px 1px rgba(158, 179, 193, .5);
+    box-shadow: 0 0 8px 1px rgba(158, 179, 193, .5);
+}
+
+.input-message{
+    color: rgb(148, 148, 148);
+    font-size: 16px;
+    padding: 8px;
+    position: absolute;
+}
